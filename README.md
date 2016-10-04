@@ -15,7 +15,7 @@ let myCode = function() {
 
 **Implementation:** the code you want to test the speed. Needs to be a function.
 
-**Loops (optional):** amount of repetitions you want your tests run.
+**Loops (optional):** Amount of reps you want your test to run.
 
 ```javascript
 let myTest = new SpeedTest(myCode, loops);
