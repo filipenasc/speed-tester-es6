@@ -11,12 +11,11 @@ let myCode = function() {
 }
 ```
 
-2 - Execute the SpeedTest, passing your code as parameter
+2 - Execute the SpeedTest, passing your code as parameter. SpeedTest takes two parameters: `implementation` and `loops`.
 
-SpeedTest takes two parameters: `implementation` and `loops`.
+**Implementation:** the code you want to test the speed. Needs to be a function.
 
-**Implementation** is the code you want to test the speed. Needs to be a function.
-**Loops (optional)** is the amount of repetitions you want your tests run.
+**Loops (optional):** amount of repetitions you want your tests run.
 
 ```javascript
 let myTest = new SpeedTest(myCode, loops);
