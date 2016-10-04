@@ -7,7 +7,7 @@ class SpeedTest {
     this.loops = loops || 1000;
   }
 
-  start() {
+  run() {
     let beginTime, endTime, sumTimes = 0;
     for (let i = 0, x = this.loops; i < x; i++) {
       beginTime = +new Date();
